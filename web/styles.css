@@ -1,0 +1,59 @@
+:root {
+    font-size: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: rgb(135, 131, 131);
+}
+
+body {
+    background: linear-gradient(to left, red, yellow);
+    direction: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.email {
+    display: flex;
+}
+
+.email-content {
+    display: block;
+    border: 1px solid red;
+}
+
+.email-header {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.email-sub-header {
+    font-size: 9px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.email-content {
+    font-size: 8px;
+    margin-top: 0;
+}
